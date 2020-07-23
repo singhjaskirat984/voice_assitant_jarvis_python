@@ -1,0 +1,47 @@
+Installation
+
+The python code(packages) that we will be using will work properly only with 3.6.2 version of python
+
+-------------------creating virtual venv to work with python 3.6.2 version(an older version than now)-----------------
+
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+
+https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python  (use this one recommended)
+
+---------------------------changing versions of python interpreter inVSCODE--------------------------------------------
+
+https://stackoverflow.com/questions/48135624/how-can-i-change-python-version-in-visual-studio-code/48135838
+
+conda activate virtualEnvName
+
+TIP:
+ DO NOT use cmd to launch VSCODE
+- open VSCODE starightly or directly through its icon
+- File > open Folder > choose your virtual environment folder
+
+
+TIP for installation of new python packages/libraries:
+TWO WAYS:
+ 1. - activate your virtual env
+    - pip install [package_name]
+ 2. - conda install -n virtualEnvName [pacakage_name] ##used from the normal c or user directory
+
+TIP change the python interpreter in VSCODE:
+use interpreter version 3.6.2
+- got to command pallete 
+      OR
+- click on python version mention on bottom-left corner(in blue bar)
+- select the interpreter by going into Anaconda3 > envs > yourEnv > python interpreter 3.6.2
+
+
+AttributeError: Could not find PyAudio; check installation
+solution:
+https://stackoverflow.com/questions/55984129/attributeerror-could-not-find-pyaudio-check-installation-cant-use-speech-re
+
+uninstalling a python package----
+https://datatofish.com/pip-uninstall-package/
+
+
+TIP to solve error "import not resolve in VSCODE"
+after installing packages in conda virtual environment close everything
+and just restart the computer and the error will be solved
