@@ -22,9 +22,11 @@ TIP:
 
 TIP for installation of new python packages/libraries:
 TWO WAYS:
- 1. - activate your virtual env
+ 1. - activate your virtual env -- conda activate virtualEnvName
     - pip install [package_name]
  2. - conda install -n virtualEnvName [pacakage_name] ##used from the normal c or user directory
+ 
+ OPEN JUPYTER NOTEBOOK == jupyter notebook
 
 TIP change the python interpreter in VSCODE:
 use interpreter version 3.6.2
